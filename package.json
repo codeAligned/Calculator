@@ -2,7 +2,11 @@
   "name": "SezzleCalculator",
   "description": "Sezzle Calculator",
   "version": "1.0.0",
+  "scripts": {
+    "start": "node calculator-server.js",
+  },
   "engines": {
     "node": "12.16.x"
   }
+
 }
