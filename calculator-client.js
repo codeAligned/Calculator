@@ -18,7 +18,7 @@ $(function () {
     }
 
     // open connection
-    var connection = new WebSocket('ws://127.0.0.1:1337');
+    var connection = new WebSocket('ws://18.208.155.211:1337');
 
     connection.onopen = function () {
         // first we want users to enter their names
